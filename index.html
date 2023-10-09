@@ -1,0 +1,780 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    
+<script>
+
+//madstream.live monetag
+// Get the current time in milliseconds
+var currentTimestamp = new Date().getTime();
+// Get the last shown time from the local storage
+var lastShownTimestamp = localStorage.getItem('lastShownTimestamp');
+
+// Check if it has been more than a day since the last time the code was shown
+if (!lastShownTimestamp || currentTimestamp - lastShownTimestamp > 6 * 60 * 60 * 1000) {
+    // Show the script tag
+    var scriptUrl = "https://inklinkor.com/tag.min.js";
+    var zoneId = 5657870;
+
+    // generate the script tag
+    var script = document.createElement('script');
+    script.setAttribute('src', scriptUrl);
+    script.setAttribute('data-zone', zoneId);
+
+    // append the script tag to the body or document element
+    (document.body || document.documentElement).appendChild(script);
+
+    // Store the current time as the last shown time in the local storage
+    localStorage.setItem('lastShownTimestamp', currentTimestamp);
+}
+
+</script>
+
+
+
+<meta name="description" content="Latest Movies, Series, TV Channel & Sports Streaming.">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Madstream - Movies Series & Live TV</title>
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<link rel="icon" type="image/x-icon" href="https://madstream.live/player/favicon.png" />	
+		<meta property="description" content="">
+        <meta name="keywords" content="madstream, madstream.live,mhdtvworld,mhdtv, mhdtvworld live tv, mhdtv, mhdtvworld, zeetv online, mhdtvworld alternative, mhdtvworld new, new movies, filmyhit, filmyzilla, tamil rockers, tamil rocker, worldfree4u, madstream live tv, madstream app, madstream apk, madplay, madplay apk, jio tv live, tataplay live, jiotv.cf, jiotvcf, live sport, live tv play, live sports events, toffe live, jio live, crichd, crichd live, new movies, filmyhit, moviehit, movierulz, latest movies, latest series,nfl, nhl, star sports,Live TV online, Live sports online, worldcup watch online, live tv channels, latest movies, latest movie download, new movie, filmyhub, filmyhub.ga, filmyhub.ga live tv, filmyhub movies, movies online, filmy movies, filmy hub, extratvteam,extratv live, extratv,extravtvteam live tv, mhdstream, filmyhub .ga">
+		<meta property="og:type" content="website">
+		<meta property="og:title" content="Madstream - Movies Series & Live TV">
+		<meta property="og:description" content="">
+
+		<!-- Bootstrap -->
+				<meta property="og:url" content="/" />
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<link href="style.css" rel="stylesheet">
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+		<script src="https://kit.fontawesome.com/017eaf7e3f.js" crossorigin="anonymous"></script>
+	</head>
+	<body class="dark-mode">
+		
+		<div class="container-fluid">
+			<div class="row main-row">
+				<div class="sidebar">
+					<h2 class="page-header logo-app">
+						<img src="https://gcdnb.pbrd.co/images/YLOflsC7XLM1.png">
+					</h2>
+					<div class="nav-bar-container" >
+						<nav class="navbar bg-light left-navbar"  >
+							<ul class="navbar-nav">
+																				<a href="https://telegram.me/Star_Gold_Trailer" class="btn  btn-subscription"><i class="fas fa-star"></i>JOIN TELEGRAM !</a>
+																		<li class="nav-item  active "><a  class="nav-link" href="/"> <i class="fas fa-home"></i> Home</a></li class="nav-item">
+									<li class="nav-item "><a class="nav-link" href="https://madstream.live/flix/bollywood.php"><i class="fas fa-film"></i> Movies</a></li class="nav-item">
+									<li class="nav-item "><a class="nav-link  open-login " href="https://madstream.live/series.php"><i class="fas fa-folder"></i> Series</a></li>
+									<li class="nav-item "><a class="nav-link" href="https://rogstream.fun/hls/tata/"><i class="fas fa-desktop"></i> Live TV</a></li class="nav-item">
+									<li class="nav-item "><a class="nav-link" href="https://madstream.live/sports"><i class="fas fa-bullseye"></i>Live Sports</a></li class="nav-item">
+								<!--	<li class="nav-item "><a class="nav-link" href="https://madstream.live/livesports"><i class="fas fa-play"></i> Live Sports Events</a></li class="nav-item">-->
+		
+
+
+
+								</ul>
+							</nav>
+						</div>
+						<nav class="navbar bg-light left-navbar bottom-navbar">
+															<a  id="lightmode" href="#" ><i class="fas fa-sun"></i></a>
+								<a  id="darkmode" href="#" style="display:none"><i class="fas fa-moon"></i> </a>
+														<ul class="navbar-nav">
+								<li class="nav-item"><a class="nav-link" href="https://madstream.live/pages/contactus.php"><i class="fas fa-envelope"></i> Contact us</a></li class="nav-item">
+								<li class="nav-item"><a class="nav-link" href="https://madstream.live/pages/termsandconditions.php"><i class="fas fa-question-circle"></i> Terms & Conditions</a></li class="nav-item">
+								<li class="nav-item"><a class="nav-link" href="https://madstream.live/pages/privacypolicy.php"><i class="fas fa-lock"></i> Privacy Policy</a></li class="nav-item">
+								<li class="nav-item"><a class="nav-link" href="https://madstream.live/pages/dmca.php"><i class="fas fa-envelope"></i> DMCA</a></li class="nav-item">
+							</ul>
+						</nav>
+					</div>
+					<div class="close-menu-left-btn"></div>
+					<div class="main">
+							<div class="xs-header" >
+								<button class="btn btn-primary float-left menu-left-btn"><i class="fas fa-bars"></i></button>
+								<img src="https://gcdnb.pbrd.co/images/YLOflsC7XLM1.png">
+																<button class="btn btn-primary float-right open-login"><i class="fas fas fa-user"></i></button>
+															<button class="btn btn-primary float-right search-btn"><i class="fas fa-search"></i></button>
+							</div>
+						<div class="row top-nav">
+							<div class="col-sm-3 col-md-3 " >
+								<div class="tab-title">Home</div>
+							</div>
+						<div class="col-sm-6 col-md-6 search-form" >
+								 <form action="/search.php" class="navbar-form" role="search">
+									<div class="search-group">
+										<i class="fas fa-search"></i>
+										<input type="text" class="form-control" placeholder="Enter Movie Name here..." name="search">
+										<button class="btn btn-default" type="submit">Search</button>
+									</div>
+								</form> 
+								<button class="btn btn-primary float-right for-phone search-btn-close"><i class="fas fa-times"></i></button>
+
+							</div> 
+							<div hidden class="col-sm-3 col-md-3 account-action for-desktop">
+																	<div class="float-right">
+										<a  href="/register/" class="btn btn-link" > Sign-up  </a>
+										<a  href="/login" class="btn btn-primary open-login" >Sign-in  </a>
+									</div>
+															</div>
+						</div>
+						<div class="content">
+								<div class="row content-section">
+		<div class="col-sm-12 col-md-12" >
+			<div id="myCarousel" class="carousel slide w-100" data-ride="carousel">
+				<ol class="carousel-indicators float-right">
+																							<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+																														<li data-target="#myCarousel" data-slide-to="1" ></li>
+																					</ol>
+				<div class="carousel-inner w-100" role="listbox">
+																	
+																
+				
+													<div class="carousel-item active">
+													<div class="col-xxl-5 col-lg-8 col-md-12">
+									<img height="370" width="750" class="img-fluid" src="https://resources.pulse.icc-cricket.com/photo-resources/2023/05/17/128623c2-7a02-4961-80b6-c521e6a23117/ICC-CRICKET-WORLD-CUP-2023.png?width=985&height=580">
+									<a href="https://madstream.live/cricketworlcup.php" class="carousel-detail"><div>
+													<h3>ICC WORLDCUP LIVE<span><i class="fa fa-star"></i> 5/5</span></h3>
+													<p>Watch ICC WORLDCUP LIVE for free</p>
+													<button ><i class="fa fa-play"></i> <span>Watch Now<span></button>
+													</div>
+												</a></div></div>
+											
+											
+											
+											
+									<!--			<div class="carousel-item">-->
+									<!--		    <div class="col-xxl-5 col-lg-8 col-md-12">-->
+									<!--<img height="370" width="750" class="img-fluid" src="https://www.91-cdn.com/hub/wp-content/uploads/2023/08/How-to-watch-Asia-Cup-2023-matches-online.png">-->
+									<!--<a href="https://rogstream.fun/hls/tata/play.php?id=78" class="carousel-detail"><div>-->
+									<!--				<h3>ASIA CUP LIVE ENGLISH ðŸ”´<span><i class="fa fa-star"></i> 5/5</span></h3>-->
+									<!--				<p>Watch Asia Cup Live for free</p>-->
+									<!--				<button ><i class="fa fa-play"></i> <span>Watch Now<span></button>-->
+									<!--				</div>-->
+									<!--			</a></div></div>-->
+												
+											
+											
+											
+
+											    
+											    
+																				<!--			<div class="col-xxl-5 col-lg-8 col-md-12">
+									<img height="370" width="750" class="img-fluid" src="https://image.adsoftheworld.com/cqgsi5ikiup4vrrl94zwvh2kjdov">
+																														<a href="https://rogstream.fun/hls/tata/play.php?id=114" class="carousel-detail">
+																							<div>
+													<h3>Disney Kids <span><i class="fa fa-star"></i> 5/5</span></h3>
+													<p>Watch Your Favourite Cartoon on Disney KIDS...</p>
+													<button ><i class="fa fa-play"></i> <span>Watch Now<span></button>
+													</div>
+												</a>
+																							</div> -->
+											</div>
+													
+													
+												
+												
+												
+																			</div>
+								</div>
+							</div>
+	
+	
+
+
+
+<style>
+    body {
+  font-family: "Noto Serif TC", serif;
+  
+}
+
+.mb-15 {
+  margin-bottom: 40px;
+}
+
+.swiper {
+  background-color: #000;
+}
+
+.swiper-wrapper {
+  transition-timing-function: linear;
+}
+
+.swiper-slide {
+  width: auto;
+  padding-top: 14px;
+  padding-bottom: 10px;
+
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #ffa501;
+  background-color: #000;
+
+  white-space: nowrap;
+  overflow: hidden;
+}
+</style>
+
+
+
+
+<div class="swiper mySwiper mb-15">
+  <ul class="swiper-wrapper my-0 list-unstyled">
+    <li class="swiper-slide">   WE DIDN'T HOST ANY CONTENT ALL THE LINKS IS PUBLICALLY AVAILABLE.</li>
+  </ul>
+</div>
+
+<script>const swiper = new Swiper(".mySwiper", {
+  // 避免使用者移動到
+  allowTouchMove: true,
+
+  // 能呈現幾個 .swiper-slide
+  slidesPerView: "auto",
+
+  // 跑馬燈的速度（毫秒）
+  speed: 60000,
+  // 是否重複
+  loop: true,
+  autoplay: {
+    // 到下一個幻燈片時，停下的時間
+    delay: 0,
+    // 避免點擊造成跑馬燈失效，視情況增加
+    disableOnInteraction: false
+  },
+
+  freeMode: true,
+  spaceBetween: 0,
+  centeredSlides: true
+});
+
+const swiperReverse = new Swiper(".mySwiperReverse", {
+  // 避免使用者移動到
+  allowTouchMove: true,
+
+  // 能呈現幾個 .swiper-slide
+  slidesPerView: "auto",
+
+  // 跑馬燈的速度（毫秒）
+  speed: 75000,
+  // 是否重複
+  loop: true,
+  autoplay: {
+    // 到下一個幻燈片時，停下的時間
+    delay: 0,
+    // 避免點擊造成跑馬燈失效，視情況增加
+    disableOnInteraction: true,
+    // 更改方向
+    reverseDirection: true,
+    pauseOnMouseEnter: true
+  },
+
+  spaceBetween: 0,
+  centeredSlides: true
+});
+
+document.querySelector(".mySwiper").addEventListener("mouseover", (e) => {
+  // #FIXME
+  console.log("hi");
+  swiper.autoplay.pause();
+});
+
+// swiper.on("mouseover", function () {
+//  console.log("hi");
+// });</script>
+
+
+
+
+		<!--			<p  class="center">	<small class="text-muted"><strong> Note: We didn't Host or Owned Any Content, All the Links available are thirdparty and we don't have access to it.</strong></small></p>
+-->														<div class="col-sm-12 col-md-12 ">
+								<a href="/channels/all/all/views.html" class="title-more">
+									<span>Featured LiveTV</span>
+									<i class="fa fa-th float-right"></i>
+								</a>
+							</div>
+							<div class="flix-carousel" >
+								<button  class="prev_btn"><i class="fa fa-chevron-left"></i></button>
+								<button  class="next_btn"><i class="fa fa-chevron-right"></i></button>
+								<div class="flix-scroll-x">
+								    
+								    
+																	<a class="channel " href="https://telegram.me/livesportsclub" >
+		<img height="75" width="150" style="height:90px" src="https://latium.org/storage/prod/kQ3d42JD/full/1000x"/>
+		<div>
+					</div>
+</a>
+					
+																			<a class="channel " href="https://rogstream.fun/hls/tata/" >
+		<img height="75" width="150" style="height:90px" src="https://etimg.etb2bimg.com/photo/89134438.cms"/>
+		<div>
+				</div>
+</a>
+
+																			<a class="channel " href="https://madstream.live/pages/jio.php" >
+		<img height="75" width="150" style="height:90px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiEx4rGKGWWEzFefHpShlrWlOVj1-vi_bC74vY9Awwk9XLxUZqNHWzdoho&s=10"/>
+		<div>
+					</div>
+</a>
+																			<a class="channel " href="https://madstream.live/pages/voot.php" >
+		<img height="75" width="150" style="height:90px" src="https://v3img.voot.com/v3Storage/assets/web_voot_logo-1630676921806.png"/>
+		<div>
+					</div>
+</a>
+																			<a class="channel " href="https://madstream.live/pages/sonyliv.php" >
+		<img height="75" width="150"style="height:90px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5RZES5JwGDVv9EIcn5eBeRlvwYpQIpr_QVQ&usqp=CAU"/>
+		<div>
+					</div>
+</a>
+																			<a class="channel " href="https://madstream.live/pages/sunnxt.php" >
+		<img height="75" width="150" style="height:90px" src="https://www.indiantvinfo.com/media/2017/06/sun-nxt-app-download.jpg"/>
+		<div>
+					</div>
+</a>
+																			<a class="channel " href="https://madstream.live/pages/discovery.php" >
+		<img height="75" width="150" style="height:90px" src="https://us1-prod-images.disco-api.com/2021/1/4/31ca7f0b-f57f-4254-b84e-b1c2bab210a6.png"/>
+		<div>
+					</div>
+</a>
+		
+																	</div>
+							</div>
+							
+							
+		
+
+							<div class="col-sm-12 col-md-12 ">
+								<a href="https://madstream.live/flix/bollywood.php" class="title-more">
+									<span>Bollywood Movies</span>
+									<i class="fa fa-th float-right"></i>
+								</a>
+							</div>
+							<div class="flix-carousel" >
+								<button  class="prev_btn"><i class="fa fa-chevron-left"></i></button>
+								<button  class="next_btn"><i class="fa fa-chevron-right"></i></button>
+								<div class="flix-scroll-x">
+									
+									
+							
+																				
+<a href="https://rogstream.fun/API/flix/tmdbplay.php?tmdb=734253" alt="Adipurush" class="poster col-4 col-md-2 col-xxl-2">
+<div>
+<img width="170" height="255" style="height:210px" src="https://themoviedb.org/t/p/w300_and_h450_bestv2//bNY8xxtLm0HtdPS0kBttK3WKGQf.jpg"/>
+<div>
+</div>
+</div>
+</a>
+<a href="https://rogstream.fun/API/flix/tmdbplay.php?tmdb=878926" alt="Khufiya" class="poster col-4 col-md-2 col-xxl-2">
+<div>
+<img width="170" height="255" style="height:210px" src="https://themoviedb.org/t/p/w300_and_h450_bestv2//bbHUuTEo2DsYLoXCjkL8kB0oPhy.jpg"/>
+<div>
+</div>
+</div>
+</a>
+<a href="https://rogstream.fun/API/flix/tmdbplay.php?tmdb=872906" alt="Jawan" class="poster col-4 col-md-2 col-xxl-2">
+<div>
+<img width="170" height="255" style="height:210px" src="https://themoviedb.org/t/p/w300_and_h450_bestv2//jFt1gS4BGHlK8xt76Y81Alp4dbt.jpg"/>
+<div>
+</div>
+</div>
+</a>
+<a href="https://rogstream.fun/API/flix/tmdbplay.php?tmdb=950071" alt="Jaane Jaan" class="poster col-4 col-md-2 col-xxl-2">
+<div>
+<img width="170" height="255" style="height:210px" src="https://themoviedb.org/t/p/w300_and_h450_bestv2//g2lNwTnHd41Hl7mlvFr8Q3A1vyJ.jpg"/>
+<div>
+</div>
+</div>
+</a>
+<a href="https://rogstream.fun/API/flix/tmdbplay.php?tmdb=885331" alt="Gadar 2" class="poster col-4 col-md-2 col-xxl-2">
+<div>
+<img width="170" height="255" style="height:210px" src="https://themoviedb.org/t/p/w300_and_h450_bestv2//ipoUI3FzVTczg2r8mYxNlE5SsMh.jpg"/>
+<div>
+</div>
+</div>
+</a>
+<a href="https://rogstream.fun/API/flix/tmdbplay.php?tmdb=1131409" alt="Mission Raniganj" class="poster col-4 col-md-2 col-xxl-2">
+<div>
+<img width="170" height="255" style="height:210px" src="https://themoviedb.org/t/p/w300_and_h450_bestv2//dWtvEvbXjoMen9neNRB2erGhUxj.jpg"/>
+<div>
+</div>
+</div>
+</a>
+<a href="https://rogstream.fun/API/flix/tmdbplay.php?tmdb=864692" alt="Pathaan" class="poster col-4 col-md-2 col-xxl-2">
+<div>
+<img width="170" height="255" style="height:210px" src="https://themoviedb.org/t/p/w300_and_h450_bestv2//34GotfJNFxq7pjUrgACShto5vq6.jpg"/>
+<div>
+</div>
+</div>
+</a>
+<a href="https://rogstream.fun/API/flix/tmdbplay.php?tmdb=1150730" alt="The Spark" class="poster col-4 col-md-2 col-xxl-2">
+<div>
+<img width="170" height="255" style="height:210px" src="https://themoviedb.org/t/p/w300_and_h450_bestv2/"/>
+<div>
+</div>
+</div>
+</a>
+<a href="https://rogstream.fun/API/flix/tmdbplay.php?tmdb=848116" alt="Rocky Aur Rani Kii Prem Kahaani" class="poster col-4 col-md-2 col-xxl-2">
+<div>
+<img width="170" height="255" style="height:210px" src="https://themoviedb.org/t/p/w300_and_h450_bestv2//vTQIqlxUkOuyf2UKhlM2OUaFGKz.jpg"/>
+<div>
+</div>
+</div>
+</a>
+<a href="https://rogstream.fun/API/flix/tmdbplay.php?tmdb=1018228" alt="Chor Nikal Ke Bhaga" class="poster col-4 col-md-2 col-xxl-2">
+<div>
+<img width="170" height="255" style="height:210px" src="https://themoviedb.org/t/p/w300_and_h450_bestv2//1MIDERaEUMw1rYDM99tGZPY80Ap.jpg"/>
+<div>
+</div>
+</div>
+</a>
+<a href="https://rogstream.fun/API/flix/tmdbplay.php?tmdb=957999" alt="Thank You For Coming" class="poster col-4 col-md-2 col-xxl-2">
+<div>
+<img width="170" height="255" style="height:210px" src="https://themoviedb.org/t/p/w300_and_h450_bestv2//f6XB8v38Y49ts4bklaHuCHuJKCf.jpg"/>
+<div>
+</div>
+</div>
+</a>
+																				
+												
+									
+
+					
+										
+
+
+																											</div>
+							</div>
+							<div class="col-sm-12 col-md-12 ">
+								<a href="https://madstream.live/flix/hollywood.php" class="title-more">
+									<span>Hollywood Movies</span>
+									<i class="fa fa-th float-right"></i>
+								</a>
+							</div>
+							<div class="flix-carousel" >
+								<button  class="prev_btn"><i class="fa fa-chevron-left"></i></button>
+								<button  class="next_btn"><i class="fa fa-chevron-right"></i></button>
+								<div class="flix-scroll-x">
+							
+							
+																				
+<a href="https://rogstream.fun/API/flix/tmdbplay.php?tmdb=968051" alt="The Nun II" class="poster col-4 col-md-2 col-xxl-2">
+<div>
+<img width="170" height="255" style="height:210px" src="https://themoviedb.org/t/p/w300_and_h450_bestv2//5gzzkR7y3hnY8AD1wXjCnVlHba5.jpg"/>
+<div>
+</div>
+</div>
+</a>
+<a href="https://rogstream.fun/API/flix/tmdbplay.php?tmdb=678512" alt="Sound of Freedom" class="poster col-4 col-md-2 col-xxl-2">
+<div>
+<img width="170" height="255" style="height:210px" src="https://themoviedb.org/t/p/w300_and_h450_bestv2//qA5kPYZA7FkVvqcEfJRoOy4kpHg.jpg"/>
+<div>
+</div>
+</div>
+</a>
+<a href="https://rogstream.fun/API/flix/tmdbplay.php?tmdb=980489" alt="Gran Turismo" class="poster col-4 col-md-2 col-xxl-2">
+<div>
+<img width="170" height="255" style="height:210px" src="https://themoviedb.org/t/p/w300_and_h450_bestv2//51tqzRtKMMZEYUpSYkrUE7v9ehm.jpg"/>
+<div>
+</div>
+</div>
+</a>
+<a href="https://rogstream.fun/API/flix/tmdbplay.php?tmdb=565770" alt="Blue Beetle" class="poster col-4 col-md-2 col-xxl-2">
+<div>
+<img width="170" height="255" style="height:210px" src="https://themoviedb.org/t/p/w300_and_h450_bestv2//mXLOHHc1Zeuwsl4xYKjKh2280oL.jpg"/>
+<div>
+</div>
+</div>
+</a>
+<a href="https://rogstream.fun/API/flix/tmdbplay.php?tmdb=926393" alt="The Equalizer 3" class="poster col-4 col-md-2 col-xxl-2">
+<div>
+<img width="170" height="255" style="height:210px" src="https://themoviedb.org/t/p/w300_and_h450_bestv2//b0Ej6fnXAP8fK75hlyi2jKqdhHz.jpg"/>
+<div>
+</div>
+</div>
+</a>
+<a href="https://rogstream.fun/API/flix/tmdbplay.php?tmdb=1008042" alt="Talk to Me" class="poster col-4 col-md-2 col-xxl-2">
+<div>
+<img width="170" height="255" style="height:210px" src="https://themoviedb.org/t/p/w300_and_h450_bestv2//kdPMUMJzyYAc4roD52qavX0nLIC.jpg"/>
+<div>
+</div>
+</div>
+</a>
+<a href="https://rogstream.fun/API/flix/tmdbplay.php?tmdb=820525" alt="After Everything" class="poster col-4 col-md-2 col-xxl-2">
+<div>
+<img width="170" height="255" style="height:210px" src="https://themoviedb.org/t/p/w300_and_h450_bestv2//uQxjZGU6rxSPSMeAJPJQlmfV3ys.jpg"/>
+<div>
+</div>
+</div>
+</a>
+<a href="https://rogstream.fun/API/flix/tmdbplay.php?tmdb=615656" alt="Meg 2: The Trench" class="poster col-4 col-md-2 col-xxl-2">
+<div>
+<img width="170" height="255" style="height:210px" src="https://themoviedb.org/t/p/w300_and_h450_bestv2//4m1Au3YkjqsxF8iwQy0fPYSxE0h.jpg"/>
+<div>
+</div>
+</div>
+</a>
+<a href="https://rogstream.fun/API/flix/tmdbplay.php?tmdb=1151534" alt="Nowhere" class="poster col-4 col-md-2 col-xxl-2">
+<div>
+<img width="170" height="255" style="height:210px" src="https://themoviedb.org/t/p/w300_and_h450_bestv2//rpzFxv78UvYG5yQba2soO5mMl4T.jpg"/>
+<div>
+</div>
+</div>
+</a>
+<a href="https://rogstream.fun/API/flix/tmdbplay.php?tmdb=385687" alt="Fast X" class="poster col-4 col-md-2 col-xxl-2">
+<div>
+<img width="170" height="255" style="height:210px" src="https://themoviedb.org/t/p/w300_and_h450_bestv2//fiVW06jE7z9YnO4trhaMEdclSiC.jpg"/>
+<div>
+</div>
+</div>
+</a>
+<a href="https://rogstream.fun/API/flix/tmdbplay.php?tmdb=1171541" alt="Sniper: G.R.I.T. - Global Response & Intelligence Team" class="poster col-4 col-md-2 col-xxl-2">
+<div>
+<img width="170" height="255" style="height:210px" src="https://themoviedb.org/t/p/w300_and_h450_bestv2//gcd5TJwXLWeQ2Dn0aRxI8OJIIxK.jpg"/>
+<div>
+</div>
+</div>
+</a>
+																				
+																				
+
+															
+															<div class="col-sm-12 col-md-12 ">
+									<a href="https://madstream.live/flix/series.php" class="title-more">
+										<span>Web-Series</span>
+										<i class="fa fa-th float-right"></i>
+									</a>
+								</div>
+								<div class="flix-carousel" >
+									<button  class="prev_btn"><i class="fa fa-chevron-left"></i></button>
+									<button  class="next_btn"><i class="fa fa-chevron-right"></i></button>
+									<div class="flix-scroll-x">
+																													
+<a href="http://madxsia.live/moviehit/play.php?id=687474703a2f2f66696c6d792d6869742e6366642f6d6f766965732f646f776e6c6f61642f31323636352f4c7570696e2d323032332d5330332d414c4c2d45502d696e2d48696e64692d4e6574666c69782d48696e64692d417564696f2d54562d46756c6c2d53686f77732d5a6565352d5745422d53657269616c732d3367702d4d70342d50632d48442d2e68746d6c&d=10" title="Lupin 2023 S03 ALL EP in Hindi Full Movie" class="poster">
+<div>
+<img width="300" height="450" style="height:450" src="http://filmy-hit.cfd/movies/cover/Lupin 2023 S03 ALL EP in Hindi.jpg"/>
+<div>
+</div>
+</div>
+</a>
+<a href="http://madxsia.live/moviehit/play.php?id=687474703a2f2f66696c6d792d6869742e6366642f6d6f766965732f646f776e6c6f61642f31323635342f43686f6f6e612d323032332d5330312d414c4c2d45502d696e2d48696e64692d4e6574666c69782d48696e64692d417564696f2d54562d46756c6c2d53686f77732d5a6565352d5745422d53657269616c732d3367702d4d70342d50632d48442d2e68746d6c&d=10" title="Choona 2023 S01 ALL EP in Hindi Full Movie" class="poster">
+<div>
+<img width="300" height="450" style="height:450" src="http://filmy-hit.cfd/movies/cover/Choona 2023 S01 ALL EP in Hindi.jpg"/>
+<div>
+</div>
+</div>
+</a>
+<a href="http://madxsia.live/moviehit/play.php?id=687474703a2f2f66696c6d792d6869742e6366642f6d6f766965732f646f776e6c6f61642f31323633312f4f6e652d50696563652d323032332d5330312d414c4c2d45502d696e2d48696e64692d4e6574666c69782d48696e64692d417564696f2d54562d46756c6c2d53686f77732d5a6565352d5745422d53657269616c732d3367702d4d70342d50632d48442d2e68746d6c&d=10" title="One Piece 2023 S01 ALL EP in Hindi Full Movie" class="poster">
+<div>
+<img width="300" height="450" style="height:450" src="http://filmy-hit.cfd/movies/cover/One Piece 2023 S01 ALL EP in Hindi.jpg"/>
+<div>
+</div>
+</div>
+</a>
+<a href="http://madxsia.live/moviehit/play.php?id=687474703a2f2f66696c6d792d6869742e6366642f6d6f766965732f646f776e6c6f61642f31323632362f4b61616c612d323032332d5330312d414c4c2d45502d696e2d48696e64692d4e6574666c69782d48696e64692d417564696f2d54562d46756c6c2d53686f77732d5a6565352d5745422d53657269616c732d3367702d4d70342d50632d48442d2e68746d6c&d=10" title="Kaala 2023 S01 ALL EP in Hindi Full Movie" class="poster">
+<div>
+<img width="300" height="450" style="height:450" src="http://filmy-hit.cfd/movies/cover/Kaala 2023 S01 ALL EP in Hindi.jpg"/>
+<div>
+</div>
+</div>
+</a>
+<a href="http://madxsia.live/moviehit/play.php?id=687474703a2f2f66696c6d792d6869742e6366642f6d6f766965732f646f776e6c6f61642f31323632342f42616d6261692d4d6572692d323032332d5330312d616c6c2d65702d696e2d48696e64692d4e6574666c69782d48696e64692d417564696f2d54562d46756c6c2d53686f77732d5a6565352d5745422d53657269616c732d3367702d4d70342d50632d48442d2e68746d6c&d=10" title="Bambai Meri 2023 S01 all ep in Hindi Full Movie" class="poster">
+<div>
+<img width="300" height="450" style="height:450" src="http://filmy-hit.cfd/movies/cover/Bambai Meri 2023 S01 all ep in Hindi.jpg"/>
+<div>
+</div>
+</div>
+</a>
+<a href="http://madxsia.live/moviehit/play.php?id=687474703a2f2f66696c6d792d6869742e6366642f6d6f766965732f646f776e6c6f61642f31323631392f427265616b696e672d4261642d323032332d5330312d414c4c2d696e2d48696e64692d4e6574666c69782d48696e64692d417564696f2d54562d46756c6c2d53686f77732d5a6565352d5745422d53657269616c732d3367702d4d70342d50632d48442d2e68746d6c&d=10" title="Breaking Bad 2023 S01 ALL in Hindi Full Movie" class="poster">
+<div>
+<img width="300" height="450" style="height:450" src="http://filmy-hit.cfd/movies/cover/Breaking Bad 2023 S01 ALL in Hindi.jpg"/>
+<div>
+</div>
+</div>
+</a>
+<a href="http://madxsia.live/moviehit/play.php?id=687474703a2f2f66696c6d792d6869742e6366642f6d6f766965732f646f776e6c6f61642f31323630332f5468652d467265656c616e6365722d323032332d5330312d414c4c2d45502d696e2d48696e64692d4e6574666c69782d48696e64692d417564696f2d54562d46756c6c2d53686f77732d5a6565352d5745422d53657269616c732d3367702d4d70342d50632d48442d2e68746d6c&d=10" title="The Freelancer 2023 S01 ALL EP in Hindi Full Movie" class="poster">
+<div>
+<img width="300" height="450" style="height:450" src="http://filmy-hit.cfd/movies/cover/The Freelancer 2023 S01 ALL EP in Hindi.jpg"/>
+<div>
+</div>
+</div>
+</a>
+<a href="http://madxsia.live/moviehit/play.php?id=687474703a2f2f66696c6d792d6869742e6366642f6d6f766965732f646f776e6c6f61642f31323539392f5363616d2d323030332d5468652d54656c67692d53746f72792d414c4c2d45502d696e2d48696e64692d4e6574666c69782d48696e64692d417564696f2d54562d46756c6c2d53686f77732d5a6565352d5745422d53657269616c732d3367702d4d70342d50632d48442d2e68746d6c&d=10" title="Scam 2003 The Telgi Story ALL EP in Hindi Full Movie" class="poster">
+<div>
+<img width="300" height="450" style="height:450" src="http://filmy-hit.cfd/movies/cover/Scam 2003 The Telgi Story ALL EP in Hindi.jpg"/>
+<div>
+</div>
+</div>
+</a>
+<a href="http://madxsia.live/moviehit/play.php?id=687474703a2f2f66696c6d792d6869742e6366642f6d6f766965732f646f776e6c6f61642f31323539352f4b696c6c65722d426f6f6b2d436c75622d323032332d5330312d414c4c2d45502d696e2d48696e64692d4e6574666c69782d48696e64692d417564696f2d54562d46756c6c2d53686f77732d5a6565352d5745422d53657269616c732d3367702d4d70342d50632d48442d2e68746d6c&d=10" title="Killer Book Club 2023 S01 ALL EP in Hindi Full Movie" class="poster">
+<div>
+<img width="300" height="450" style="height:450" src="http://filmy-hit.cfd/movies/cover/Killer Book Club 2023 S01 ALL EP in Hindi.jpg"/>
+<div>
+</div>
+</div>
+</a>
+<a href="http://madxsia.live/moviehit/play.php?id=687474703a2f2f66696c6d792d6869742e6366642f6d6f766965732f646f776e6c6f61642f31323538372f47756e732d616e642d47756c616162732d323032332d5330312d414c4c2d45502d48696e64692d4e6574666c69782d48696e64692d417564696f2d54562d46756c6c2d53686f77732d5a6565352d5745422d53657269616c732d3367702d4d70342d50632d48442d2e68746d6c&d=10" title="Guns and Gulaabs 2023 S01 ALL EP Hindi Full Movie" class="poster">
+<div>
+<img width="300" height="450" style="height:450" src="http://filmy-hit.cfd/movies/cover/Guns and Gulaabs 2023 S01 ALL EP Hindi.jpg"/>
+<div>
+</div>
+</div>
+</a>
+<a href="http://madxsia.live/moviehit/play.php?id=687474703a2f2f66696c6d792d6869742e6366642f6d6f766965732f646f776e6c6f61642f31323538302f5461616c692d323032332d5330312d414c4c2d45502d696e2d48696e64692d4e6574666c69782d48696e64692d417564696f2d54562d46756c6c2d53686f77732d5a6565352d5745422d53657269616c732d3367702d4d70342d50632d48442d2e68746d6c&d=10" title="Taali 2023 S01 ALL EP in Hindi Full Movie" class="poster">
+<div>
+<img width="300" height="450" style="height:450" src="http://filmy-hit.cfd/movies/cover/Taali 2023 S01 ALL EP in Hindi.jpg"/>
+<div>
+</div>
+</div>
+</a>
+<a href="http://madxsia.live/moviehit/play.php?id=687474703a2f2f66696c6d792d6869742e6366642f6d6f766965732f646f776e6c6f61642f31323537392f436f6d6d616e646f2d323032332d5330312d414c4c2d45502d48696e64692d4e6574666c69782d48696e64692d417564696f2d54562d46756c6c2d53686f77732d5a6565352d5745422d53657269616c732d3367702d4d70342d50632d48442d2e68746d6c&d=10" title="Commando 2023 S01 ALL EP Hindi Full Movie" class="poster">
+<div>
+<img width="300" height="450" style="height:450" src="http://filmy-hit.cfd/movies/cover/Commando 2023 S01 ALL EP Hindi.jpg"/>
+<div>
+</div>
+</div>
+</a>
+<a href="http://madxsia.live/moviehit/play.php?id=687474703a2f2f66696c6d792d6869742e6366642f6d6f766965732f646f776e6c6f61642f31323537352f5468652d4b6173686d69722d46696c65732d556e7265706f727465642d323032332d5330312d414c4c2d45502d696e2d48696e64692d4e6574666c69782d48696e64692d417564696f2d54562d46756c6c2d53686f77732d5a6565352d5745422d53657269616c732d3367702d4d70342d50632d48442d2e68746d6c&d=10" title="The Kashmir Files Unreported 2023 S01 ALL EP in Hindi Full Movie" class="poster">
+<div>
+<img width="300" height="450" style="height:450" src="http://filmy-hit.cfd/movies/cover/The Kashmir Files Unreported 2023 S01 ALL EP in Hindi.jpg"/>
+<div>
+</div>
+</div>
+</a>
+<a href="http://madxsia.live/moviehit/play.php?id=687474703a2f2f66696c6d792d6869742e6366642f6d6f766965732f646f776e6c6f61642f31323536342f5468652d48756e742d666f722d56656572617070616e2d323032332d5330312d414c4c2d45502d696e2d48696e64692d4e6574666c69782d48696e64692d417564696f2d54562d46756c6c2d53686f77732d5a6565352d5745422d53657269616c732d3367702d4d70342d50632d48442d2e68746d6c&d=10" title="The Hunt for Veerappan 2023 S01 ALL EP in Hindi Full Movie" class="poster">
+<div>
+<img width="300" height="450" style="height:450" src="http://filmy-hit.cfd/movies/cover/The Hunt for Veerappan 2023 S01 ALL EP in Hindi.jpg"/>
+<div>
+</div>
+</div>
+</a>
+<a href="http://madxsia.live/moviehit/play.php?id=687474703a2f2f66696c6d792d6869742e6366642f6d6f766965732f646f776e6c6f61642f31323531332f4b6f687272612d323032332d5330312d414c4c2d45502d696e2d48696e64692d4e6574666c69782d48696e64692d417564696f2d54562d46756c6c2d53686f77732d5a6565352d5745422d53657269616c732d3367702d4d70342d50632d48442d2e68746d6c&d=10" title="Kohrra 2023 S01 ALL EP in Hindi Full Movie" class="poster">
+<div>
+<img width="300" height="450" style="height:450" src="http://filmy-hit.cfd/movies/cover/Kohrra 2023 S01 ALL EP in Hindi.jpg"/>
+<div>
+</div>
+</div>
+</a>
+<a href="http://madxsia.live/moviehit/play.php?id=687474703a2f2f66696c6d792d6869742e6366642f6d6f766965732f646f776e6c6f61642f31323530352f5468652d547269616c2d323032332d5330312d414c4c2d45502d696e2d48696e64692d4e6574666c69782d48696e64692d417564696f2d54562d46756c6c2d53686f77732d5a6565352d5745422d53657269616c732d3367702d4d70342d50632d48442d2e68746d6c&d=10" title="The Trial 2023 S01 ALL EP in Hindi Full Movie" class="poster">
+<div>
+<img width="300" height="450" style="height:450" src="http://filmy-hit.cfd/movies/cover/The Trial 2023 S01 ALL EP in Hindi.jpg"/>
+<div>
+</div>
+</div>
+</a>
+<a href="http://madxsia.live/moviehit/play.php?id=687474703a2f2f66696c6d792d6869742e6366642f6d6f766965732f646f776e6c6f61642f31323438392f4164687572612d323032332d5330312d414c4c2d45502d696e2d48696e64692d4e6574666c69782d48696e64692d417564696f2d54562d46756c6c2d53686f77732d5a6565352d5745422d53657269616c732d3367702d4d70342d50632d48442d2e68746d6c&d=10" title="Adhura 2023 S01 ALL EP in Hindi Full Movie" class="poster">
+<div>
+<img width="300" height="450" style="height:450" src="http://filmy-hit.cfd/movies/cover/Adhura 2023 S01 ALL EP in Hindi.jpg"/>
+<div>
+</div>
+</div>
+</a>
+<a href="http://madxsia.live/moviehit/play.php?id=687474703a2f2f66696c6d792d6869742e6366642f6d6f766965732f636f7665722f4b6572616c61204372696d6520323032332053303120414c4c20455020494e2048696e64692e6a7067&d=10" title="Kerala Crime 2023 S01 ALL EP IN Hindi Full Movie" class="poster">
+<div>
+<img width="300" height="450" style="height:450" src=""/>
+<div>
+</div>
+</div>
+</a>
+																																																															</div>
+								</div>
+													
+													
+													
+													
+													
+													
+													
+									
+													
+													
+														
+														
+													</div>
+											</div>
+					</div>
+				</div>
+			</div>
+<!--			<div class="gplay-box">
+	<span><i class="fas fa-times-circle"></i></span>
+	<div>
+		<img src="https://webflix.virmana.com/uploads/cache/actor_thumb_mini_web/uploads/png/09ec31507379ecda5a4f37e08c8a12be.png">
+		<h3>Flix App</h3>
+		<p>Flix Application Movies App / Tv Seris / Live Channel - Demo app</p>
+	</div>
+	<a href="https://play.google.com/store/apps/details?id=com.virmana.flix" target="_blank" class="btn"><i class="fas fa-download"></i> Download</a>
+</div> -->
+			
+							<div class="background-close login-full">
+	<div class="login-box">
+		<div class="notif-head">
+			<span class="notif-close"><i class="fa fa-times" aria-hidden="true"></i></span>
+			<span class="notif-title"><i class="fa fa-fw fa-lock"></i>  Sign in to your account </span>
+		</div>
+		<div class="notif-body">
+			<div class="carda__body pdn--al">
+				<div class="row">
+					<div class="col-sm-6 col-xs-6 mrg--bs">
+						<a href="/login/facebook" class="btn  btn-facebook btn-block">
+							<i class="fab fa-facebook-f"></i> Facebook
+						</a>
+					</div>
+					<br>
+					<br>
+					<div class="col-sm-6 col-xs-6 mrg--bs">
+						<a href="/login/google" class="btn  btn-google btn-block">
+							<i class="fab fa-google"></i> Google
+						</a>
+					</div>
+					<h4 class="dividr mrg--vh">
+					<b class="dividr__content"><i class="dividr__label">OR</i></b>
+					</h4>
+					<form method="POST" action="/login_check" >
+						<input type="hidden" name="_csrf_token" value="WiwasKQcIVxHcpyfwH7cWAFyEBVRB_gvAFk_ejEnaX0" />
+						<div class="form-group ">
+							<input class="form-control" type="email" id="username" name="_username" value="" placeholder="E-mail" required="required">
+						</div>
+						<div class="form-group ">
+							<input placeholder="Password" class="form-control" type="password" id="password" name="_password" required="required">
+						</div>
+						<div class="form-group  row mrg--vh">
+							<div class="col-sm-12">
+								<button type="submit" class="btn btn-primary btn-block">
+								<i class="fas fa-sign-in-alt"></i> Sign-in
+								</button>
+							</div>
+						</div>
+						<div class="form-group checkbox clearfix">
+							<a href="/resetting/request" class="btn btn-link float-right pdn--an-imp">Reset Password</a>
+							<label class="float-left remember-me">
+								<input type="checkbox" id="remember_me" name="_remember_me" value="on">
+							Remember Me</label>
+						</div>
+						<div>
+							<p>Are you new here ? <a  href="/register/">Sign-up</a></p>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+
+
+						
+			<!-- Include all compiled plugins (below), or include individual files as needed -->
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+			<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+			<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+			
+			<script src="script.js" ></script>
+		</body>
+	</html>
